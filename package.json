@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --watch 'src/**' --ext 'ts,json' --ignore 'src/**/*.spec.ts' --exec 'ts-node ./src/index.ts'",
+    "dev": "nodemon --watch 'src/**' --ext 'ts,json' --exec 'ts-node ./src/index.ts'",
     "build": "rm -rf ./dist && tsc",
     "start": "nodemon ./src/index.ts"
   },
@@ -15,7 +15,7 @@
     "Assignment",
     "Ads"
   ],
-  "author": "Apester R&D <rnd@apester.com>",
+  "author": "Avi Huja",
   "license": "ISC",
   "dependencies": {
     "@types/express": "^4.17.11",

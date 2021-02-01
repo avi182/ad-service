@@ -1,7 +1,8 @@
 import mongoose from "mongoose";
+const { DB_URL } = require("../../db.json");
 
 export const connect = async () => {
-  await mongoose.connect("mongodb://127.0.0.1/ads-system", {
+  await mongoose.connect(DB_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
