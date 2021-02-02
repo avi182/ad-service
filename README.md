@@ -1,8 +1,8 @@
 ## Ad-service ExpressJS application
 
-This repo holds a Express.js server-side application Written with TypeScript.
+This repo holds an Express.js server-side application written with TypeScript.
 
-The web app can devliver ads customized by the user location, browser, OS and interests.
+The app can deliever ads customized by the user location, browser, OS and interests.
 
 ## Usage
 
